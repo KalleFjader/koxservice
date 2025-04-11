@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Topbar from './topbar';
+import './Main.css';
+import myphoto from './images/kockesbil.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Topbar />
+      <div className="main-content">
+        <h1>Solar Water Solutions</h1>
+        <p>Kox-Service är ett finskt företag specialiserat på installation och underhåll av moderna reningsverk för både privatpersoner och företag. Med över 15 års erfarenhet i branschen erbjuder vi skräddarsydda lösningar som säkerställer renare vatten och en hållbar framtid.</p>
+        <img src={myphoto} alt="A description of the photo" className="main-image" />
+      </div>
     </div>
   );
 }
