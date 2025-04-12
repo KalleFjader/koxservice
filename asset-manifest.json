@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/koxservice/static/css/main.3458454a.css",
-    "main.js": "/koxservice/static/js/main.a5648623.js",
+    "main.css": "/koxservice/static/css/main.507ece56.css",
+    "main.js": "/koxservice/static/js/main.7c69df0a.js",
     "static/js/453.ed3810f9.chunk.js": "/koxservice/static/js/453.ed3810f9.chunk.js",
     "static/media/kockesbil.png": "/koxservice/static/media/kockesbil.e1e18f88d817d1464c40.png",
     "static/media/placeholder.png": "/koxservice/static/media/placeholder.35cad1d4e896c1dd6062.png",
     "index.html": "/koxservice/index.html",
-    "main.3458454a.css.map": "/koxservice/static/css/main.3458454a.css.map",
-    "main.a5648623.js.map": "/koxservice/static/js/main.a5648623.js.map",
+    "main.507ece56.css.map": "/koxservice/static/css/main.507ece56.css.map",
+    "main.7c69df0a.js.map": "/koxservice/static/js/main.7c69df0a.js.map",
     "453.ed3810f9.chunk.js.map": "/koxservice/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3458454a.css",
-    "static/js/main.a5648623.js"
+    "static/css/main.507ece56.css",
+    "static/js/main.7c69df0a.js"
   ]
 }
