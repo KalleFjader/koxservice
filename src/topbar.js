@@ -26,9 +26,9 @@ function Topbar() {
       {/* Dropdown Menu */}
       {menuOpen && (
        <div className={`sidebar ${menuOpen ? "open" : ""}`}>
-       <Link to="/home" className="sidebar-link1" onClick={toggleMenu}>Hem</Link>
-       <Link to="/about" className="sidebar-link" onClick={toggleMenu}>Om oss</Link>
-       <Link to="/contact" className="sidebar-link" onClick={toggleMenu}>Kontaktuppgifter</Link>
+       <Link to="home" className="sidebar-link1" onClick={toggleMenu}>Hem</Link>
+       <Link to="about" className="sidebar-link" onClick={toggleMenu}>Om oss</Link>
+       <Link to="contact" className="sidebar-link" onClick={toggleMenu}>Kontaktuppgifter</Link>
      </div>
       )}
     </div>
