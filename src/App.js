@@ -1,17 +1,25 @@
-import Topbar from './topbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Topbar from './Topbar';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
 import './Main.css';
-import myphoto from './images/kockesbil.png';
 
 function App() {
   return (
-    <div>
-      <Topbar />
-      <div className="main-content">
-        <h1>Solar Water Solutions</h1>
-        <p>Kox-Service är ett finskt företag specialiserat på installation och underhåll av moderna reningsverk för både privatpersoner och företag. Med över 15 års erfarenhet i branschen erbjuder vi skräddarsydda lösningar som säkerställer renare vatten och en hållbar framtid.</p>
-        <img src={myphoto} alt="A description of the photo" className="main-image" />
+    <Router>
+      <div>
+        <Topbar />
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

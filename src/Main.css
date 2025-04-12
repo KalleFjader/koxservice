@@ -23,3 +23,17 @@
     width: 400px;
   }
   
+
+  .placeholder-image{
+
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+
+ .infobox{
+  font-size: 20px;
+  padding-top: 40px;
+  text-align: center;
+  
+ }

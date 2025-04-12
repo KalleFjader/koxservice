@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import './Topbar.css';
 
@@ -24,11 +25,11 @@ function Topbar() {
 
       {/* Dropdown Menu */}
       {menuOpen && (
-        <div className={`sidebar ${menuOpen ? "open" : ""}`}>
-          <a href="#" className="dropdown-link1">Hem</a>
-          <a href="#" className="dropdown-link">Om oss</a>
-          <a href="#" className="dropdown-link">Kontakta oss</a>
-        </div>
+       <div className={`sidebar ${menuOpen ? "open" : ""}`}>
+       <Link to="/home" className="sidebar-link1" onClick={toggleMenu}>Hem</Link>
+       <Link to="/about" className="sidebar-link" onClick={toggleMenu}>Om oss</Link>
+       <Link to="/contact" className="sidebar-link" onClick={toggleMenu}>Kontaktuppgifter</Link>
+     </div>
       )}
     </div>
   );

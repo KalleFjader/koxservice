@@ -59,18 +59,20 @@
     left: 0; /* slide in */
   }
   
-  .dropdown-link {
+  .sidebar-link {
     color: white;
     margin: 10px 0;
     text-decoration: none;
     font-size: 24px;
   }
 
-  .dropdown-link1 {
+  .sidebar-link1 {
     color: white;
     margin: 10px 0;
     text-decoration: none;
     padding-top: 60px;
     font-size: 24px;
   }
+
+
   
